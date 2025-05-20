@@ -1,0 +1,189 @@
+body{
+
+margin: 0;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+background-color: #f2f2f2;
+}
+
+nav{
+width: 300px;
+height:100%; 
+background-color: #333;
+border-top-right-radius: 20px;
+border-bottom-right-radius: 20px ;
+position:fixed;
+top: 0;
+left: 0;
+box-shadow: 0 0 1px 2px rgba(0, 0, 0, 0.3)
+
+}
+
+.main-container img{
+border-radius: 100px;
+border: 5px solid cyan;
+
+
+}
+
+.main-container{
+justify-content: center;
+text-align: center;
+padding: 10px;
+color: white;
+
+}
+
+.personal_data{
+
+display: block;
+color: white;
+text-align: left;
+padding: 2px;
+margin-left: 5px;
+font-size: 13px;
+
+
+}
+
+.skills{
+
+display: block;
+color: white;
+text-align: left;
+padding: 2px;
+margin-left: 5px;
+font-size: 13px;
+
+
+}
+
+.skills li{
+    margin-top: 5px;
+}
+
+h2{
+    font-size: 20px;
+    color: aqua;
+}
+.name{
+    width: 400px;
+    height:100px; 
+    background-color: #333;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px ;
+    position: sticky;
+    left: 18%;
+    bottom:85%;
+    
+   
+}
+
+.name h1{
+    color: aqua;
+    font-size: 40px;
+    position: absolute;
+    left: 30px;
+    top: -22px;
+    
+   
+}
+span{
+    position: absolute;
+    right: -100px;
+}
+
+.achievements{
+    position: absolute;
+    top: 120px;
+    left: 20%;
+}
+
+.achievements ul{
+    position: relative;
+    right: 20px;
+}
+
+.achievements h2{
+    color: aqua;
+}
+
+.education_attain{
+    position: absolute;
+    top: 40%;
+    left: 20%;
+
+}
+.education_attain h2{
+   color: aqua;
+
+}
+.training_workshop{
+    position: absolute;
+    top: 100%;
+    left: 20%;
+
+
+}
+
+.training_workshop h2{
+    color:aqua
+}
+
+.btn{  
+    position: absolute;
+    top: 595px;
+    left: 1px;
+    background-color: cyan;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 15px;
+    color: white;
+    text-decoration: none;
+    transition: 0.2s;
+
+    
+    }
+    
+    .btn:hover{
+       padding: 10px 20px;
+       color: white;
+    }
+
+    .btn2{  
+    position: absolute;
+    top: 640px;
+    left: 1px;
+    background-color: cyan;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 15px;
+    color: white;
+    text-decoration: none;
+    transition: 0.2s;
+
+    
+    }
+
+    .btn2:hover{
+       padding: 10px 20px;
+       color: white;
+    }
+
+    
+
+    .logo{
+        position: absolute;
+        margin-right: 25px;
+        right: 10px;
+        bottom: 24px;
+        cursor: pointer;
+      
+    }
+
+    .fblogo{
+        margin-right: 10px;
+    }
+
+       
+    
+ 
